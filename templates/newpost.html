@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>
+		Mandar
+	</title>
+	
+	
+</head>
+<body>
+	<form method="post">
+		<div>	
+			<label>
+				<div>Title</div>
+				<input type="text" name="subject" value={{subject}}>
+			</label>
+		</div>
+		<div>
+			<label>
+				<div>Art</div>
+				<textarea name="content" >{{content}}</textarea>
+			</label>
+		</div>
+		<div>
+			<label>
+				<div>Art</div>
+				<textarea name="content_ex" >{{content_ex}}</textarea>
+			</label>
+		</div>
+		<input type="submit" value="submit">
+	</form>
+	<div>{{error}}</div>
+</body>
+</html>

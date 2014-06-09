@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>
+			Mandar Palkar's Blog
+		</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div id="web_title">
+				<span>
+					<a href="/blog/">Its all about Tech...</a>
+				</span>
+			</div>
+			<div id="About">
+				<a href="/blog/resume">About Author<a>	
+			</div>
+		</div>
+		<div id="main">
+			<div id="content">
+				{%block content%}
+				{%endblock%}
+			</div>
+		
+			<div id="side-content">
+          			<div id ="per-info">
+            				<table>
+             					<tr>
+                						<td>Deployed On:</td><td>Google App Engine</td>
+             				 	</tr>
+             				 	<tr >
+                						<td>Framework:</td><td>webapp2(python)</td>
+             					</tr>
+              					<tr >
+               					 	<td>Template Engine:</td><td>jinja2(python)</td>
+              					</tr>
+           				</table>	
+        				</div>
+          			<div id ="json-notice"> 
+            				<span id="notice-title">Json O/P</span> <br>
+             				<span id="notice-content">Json can be obtained by appending ".json" (without commas) to the webpage's url.<br>
+												eg: for front page json :-<br>
+	      											 "....appspot.com/.json"<br>
+	      											 & for post's json :-<br>
+	       											"...appspot.com/blog/24535.json"
+            											</span>
+          			</div>
+       			</div>
+       		</div>
+       	</body>
+</html>

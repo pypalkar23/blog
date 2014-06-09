@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+#header
+{
+  background-color:#660066;
+  min-height:3vw;
+  border-bottom: solid 0.5vmax #5395ea;
+  display: table;
+}
+
+#web_title
+{
+  position: relative;
+  height:inherit;
+  display: table-cell;
+  vertical-align:bottom;
+  width:60vw;
+}
+
+#web_title a
+{
+  position: relative;
+  left: 15px;
+  color:#FFFFFF;
+  text-decoration: none;
+  font: 700 2.5vw 'PT Sans';
+}
+
+#main
+{
+  display: table;
+  width:80vw;
+  position: relative;
+  left:10vw;
+}
+
+#content
+{
+  position: relative;
+  width:50vw;
+  display:table-cell;
+  vertical-align: top;
+}
+
+#side-content
+{
+  position: relative;
+  display: table-cell;
+  width: 30vw;
+  vertical-align: top;
+}
+
+#About
+{
+  position: relative;
+  height:inherit;
+  display: table-cell;
+  vertical-align: middle;
+  width:40vw;
+ 
+}
+
+#About a
+{
+  position: relative;
+  left: 4vw;
+  color:#FFFFFF;
+  text-decoration: none;
+  font: 400 1.6vw 'Open Sans';
+}
+
+.post
+{
+    position: relative;
+    max-width:48vw; 
+    top:1vmax;
+    margin-bottom:3vw;
+}
+
+.post-title
+{
+    min-height: 2.5vw;
+    max-width: inherit;
+}
+
+.post-title a
+{
+    color:#000;
+    font: 400 2.5vw 'PT Sans'; 
+    text-decoration: none;
+}
+
+.post-title .permalink-url
+{
+    color:#000;
+    font: 400 2.5vw 'PT Sans'; 
+    text-decoration: none;
+}
+
+.post-title a:hover
+{
+    color:#0565f0;
+}
+
+.post-date
+{
+  font: 400 1.2vw 'PT Sans'; 
+  margin-top: 0.5vw;
+}
+
+.post-content
+{
+  margin-top: 0.5vmax;
+  font: 300 1.3vw 'Open Sans'; 
+  min-width: 1vw;
+}
+
+#per-info
+{
+  position: relative;
+  
+  margin-top:2vw;
+  width:30vw;
+  margin-bottom: 5vw;
+}
+
+#per-info table
+{
+  border-color:#5395ea;
+  border-collapse: collapse;
+  font:400 1.5vw 'PT Sans'; 
+}
+
+#per-info table td
+{
+  padding:0.5vw;
+  background-color:#5395ea;
+  color:#FFFFFF;
+  width:15vw;
+}
+
+#json-notice
+{
+  position: relative;
+  width:30vw;
+  background-color:#5395ea;
+  font-family:'PT Sans';
+  color:#FFFFFF;
+  padding: 1vw 0vw 1vw 0vw;
+}
+
+#notice-title
+{
+  font-size:2vw;
+  position: relative;
+  left:1vw;
+}
+
+#notice-content
+{
+  position: relative;
+  left: 1vw;
+  font-size: 1.5vw;
+
+}
+
+
+

@@ -1,0 +1,639 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+
+@media only screen and (min-width:1025px) and (orientation:landscape)
+{
+  body
+  {
+    position:relative;
+    left:-8px;
+    top:-8px;
+    width:100%;
+    background-color: #ededed; 
+  }
+
+#webpage
+  {
+    position: relative;
+    width:80vw;
+    left:10vw;
+    top:9vw;
+    background-color: #ededed;
+    box-shadow: 0.5vw 0.9vw 1vw #888888;
+    
+  }
+  
+#nameheader
+  {
+    z-index: 1;
+    width:inherit;
+    height:5vw;
+    position: fixed;
+    top:inherit;
+    background-color:#660066;
+    border-bottom:solid 1vmin #5395ea;
+  }
+  
+#name
+  {
+    font-size:3vmax;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+    left:1.5vw;
+    top:1vw; 
+  }
+  
+   
+#image-intro
+  {
+    left:0.1vw;
+    position: relative;
+    float: left;
+    width:20vw; 
+    top:2vh;
+    min-height:70vh;
+  }
+  
+#per-image
+  {
+    width:17vw;
+    height:17vw;
+    -moz-border:.5vw solid #5395ea;
+    position: relative;
+    left:1vw;
+    border-radius:17vw;
+    background-image: url(/images/Untitled.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    box-shadow: 0.5vw 0.9vw 1vw #888888;
+   }
+  
+
+#details li
+  {
+    margin-left: -2.5vw;
+    width:100%;
+    color:#FFFFFF;
+    min-height:4vw;
+    padding:0.5vw 0.5vw 0.5vw 1vw;
+    margin-bottom:1.5vw; 
+    font-family: 'PT Sans', sans-serif;
+    font-size:1.6vw;
+    background: #246fe3;
+    -webkit-box-shadow: 0.6vw 0.6vw 0.6vw #888888;
+    box-shadow: 0.6vw 0.6vw 0.6vw #888888;
+    
+    
+  }
+#details ul
+  {
+    list-style-type:none;
+    position:relative;
+     
+  }
+  
+
+#skill-qualifications
+  {
+    position: inherit;
+    float: left;
+    width:56vw;
+    left:1.5vw;
+    
+  }
+  
+ .skill
+  {
+    
+    position: relative;
+    min-height:11vw;
+    top: 1vw;
+    margin-bottom: 2vw;
+  }
+  
+.skill-header
+  {
+    height: inherit;
+    
+    position:relative;
+    font-size:2.39vw;
+    font-weight:700;    
+    background-clip:padding-box;
+    padding:0.1vw 0.5vw 0.5vw 1vw ;
+    font-family:'PT Sans', sans-serif; 
+  }
+ .skill-header span
+  {
+    text-align: center;
+    background-color:#246fe3;
+    padding:0.1vw 2vw 0vw 1vw ;
+    color:#FFFFFF;
+    box-shadow: 0.5vw 0.5vw 0.5vw #888888;
+  }
+  
+  .skill-info
+  {
+    position:inherit;
+    font-size:1.75vmax;
+    padding:0.2vw 0.5vw 0.5vw 1vw ;
+    font-family:'PT Sans', sans-serif; 
+  }
+  
+  .lang
+  {
+    height: 1.8vw;
+    padding: 0.3vw 0.5vw 0.5vw 0.5vw;
+    
+    margin-bottom: 1vw;
+  }
+  
+  .lang span
+  {
+    padding:0.3vw 4vw 0.5vw 0.5vw;
+    
+  }   
+  }
+    
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape),(min-width:600px) and (max-width:1024px) and (orientation:portrait)
+{
+  body
+  {
+    position:relative;
+    left:-8px;
+    top:-8px;
+    width:100%;
+    background-color: #ededed; 
+  }
+
+#webpage
+  {
+    position: relative;
+    width:85vw;
+    left:7vw;
+    top:8vw;
+    background-color: #ededed;
+    box-shadow: 0.5vw 0.9vw 1vw #888888;
+    
+  }
+  
+#nameheader
+  {
+    z-index: 1;
+    width:inherit;
+    height:7vw;
+    position: fixed;
+    top:inherit;
+    background-color:#660066;
+    border-bottom:solid 1vmin #5395ea;
+  }
+  
+#name
+  {
+    font-size:4vw;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+    left:1.5vw;
+    top:1vw; 
+  }
+  
+   
+#image-intro
+  {
+    left:0.1vw;
+    position: relative;
+    float: left;
+    width:24vw; 
+    top:2vh;
+    min-height:70vh;
+  }
+  
+#per-image
+  {
+    width:18vw;
+    height:18vw;
+    -moz-border:.5vw solid #5395ea;
+    border-radius:17vw;
+    position: relative;
+    left: 3.5vw;
+    background-image: url(/images/Untitled.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    box-shadow: 0.5vw 0.9vw 1vw #888888;
+   
+         
+  }
+  
+
+#details li
+  {
+    margin-left: -2.5vw;
+    width:100%;
+    color:#FFFFFF;
+    min-height:4vw;
+    padding:0.5vw 0.5vw 0.5vw 1vw;
+    margin-bottom:1.5vw; 
+    font-family: 'PT Sans', sans-serif;
+    font-size:2.2vw;
+    background: #246fe3;
+    -webkit-box-shadow: 0.6vw 0.6vw 0.6vw #888888;
+    box-shadow: 0.6vw 0.6vw 0.6vw #888888;
+    
+    
+  }
+#details ul
+  {
+    list-style-type:none;
+    position:relative;
+     
+  }
+  
+
+#skill-qualifications
+  {
+    position: inherit;
+    float: left;
+    width:60vw;
+    margin-left:1vw;
+    
+  }
+  
+ .skill
+  {
+    
+    position: relative;
+    min-height:9vw;
+    top: 1vw;
+    margin-bottom: 2vw;
+  }
+  
+.skill-header
+  {
+    height: inherit;
+    
+    position:relative;
+    font-size:3vw;
+    font-weight:700;    
+    background-clip:padding-box;
+    padding:0.1vw 0.5vw 0.5vw 1vw ;
+    font-family:'PT Sans', sans-serif; 
+  }
+ .skill-header span
+  {
+    text-align: center;
+    background-color:#246fe3;
+    padding:0.1vw 2vw 0vw 1vw ;
+    color:#FFFFFF;
+    box-shadow: 0.5vw 0.5vw 0.5vw #888888;
+  }
+  
+  .skill-info
+  {
+    position:inherit;
+    font-size:2.3vw;
+    padding:0.2vw 0.5vw 0.5vw 1vw ;
+    font-family:'PT Sans', sans-serif; 
+  }
+  
+  .lang
+  {
+    min-height: 1.8vw;
+    padding: 0.3vw 0.5vw 0.5vw 0.5vw;
+    margin-bottom: 0.85vw;
+  }
+  
+  .lang span
+  {
+    padding:0.3vw 4vw 0.5vw 0.5vw;
+  }   
+    
+}
+
+@media only screen and (min-width:420px) and (max-width:767px) and (orientation:landscape),(-webkit-min-device-pixel-ratio:1.5) and (-webkit-max-device-pixel-ratio:3) and (orientation:landscape)
+
+{
+  body
+  {
+    position:relative;
+    left:-8px;
+    top:-8px;
+    width:100%;
+    background-color: #ededed; 
+  }
+
+#webpage
+  {
+    position: relative;
+    width:85vw;
+    left:7vw;
+    top:8vw;
+    background-color: #ededed;
+    min-height:5vw;
+    
+  }
+  
+#nameheader
+  {
+    z-index: 1;
+    width:inherit;
+    height:10vw;
+    position: fixed;
+    top:inherit;
+    background-color:#660066;
+    border-bottom:solid 1vmin #5395ea;
+  }
+  
+#name
+  {
+    font-size:6vw;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+    left:1.5vw;
+    top:1.6vw; 
+  }
+  
+   
+#image-intro
+  {
+    
+    position: relative;
+    width: 100%; 
+    top:4vw;
+    min-height:50vw;
+  }
+  
+#per-image
+  {
+    width:35vw;
+    height:35vw;
+    -moz-border:.5vw solid #5395ea;
+    position: relative;
+    left:30%;
+    border-radius:30vw;
+    background-image: url(/images/Untitled.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    box-shadow: 0.5vw 0.9vw 1vw #888888;
+   
+         
+  }
+  
+
+#details li
+  {
+    margin-left: -7.5vw;
+    width:100%;
+    color:#FFFFFF;
+    min-height:4vw;
+    padding:0.5vw 0.5vw 0.5vw 1vw;
+    margin-bottom:1.5vw; 
+    font-family: 'PT Sans', sans-serif;
+    font-size:4vw;
+    background: #246fe3;
+    -webkit-box-shadow: 0.6vw 0.6vw 0.6vw #888888;
+    box-shadow: 0.6vw 0.6vw 0.6vw #888888;
+    
+    
+  }
+#details ul
+  {
+    list-style-type:none;
+    position:relative;
+    width:70%;
+    left:15%;
+    text-align: center;
+     
+  }
+  
+
+#skill-qualifications
+  {
+    position: relative;
+    top:5vw;
+    width:80vw;
+    margin-left:1vw;
+  }
+  
+ .skill
+  {
+    
+    position: relative;
+    min-height:9vw;
+    top: 1vw;
+    width:100%;
+    margin-bottom: 5vw;
+  }
+  
+.skill-header
+  {
+    height: inherit;
+    
+    position:relative;
+    font-size:6vw;
+    font-weight:700;    
+    background-clip:padding-box;
+    padding:0.1vw 0.5vw 0.5vw 1vw ;
+    font-family:'PT Sans', sans-serif; 
+  }
+ .skill-header span
+  {
+    text-align: center;
+    background-color:#246fe3;
+    padding:0.1vw 2vw 0vw 1vw ;
+    color:#FFFFFF;
+    box-shadow: 0.5vw 0.5vw 0.5vw #888888;
+  }
+  
+  .skill-info
+  {
+    position:inherit;
+    font-size:4vw;
+    padding:0.2vw 0.5vw 0.5vw 1vw ;
+    font-family:'PT Sans', sans-serif; 
+  }
+  
+  .lang
+  {
+    min-height: 1.8vw;
+    padding: 0.3vw 0.5vw 0.5vw 0.5vw;
+    margin-bottom: 0.85vw;
+  }
+  
+  .lang span
+  {
+    padding:0.3vw 4vw 0.5vw 0.5vw;
+  }   
+    
+}
+
+@media only screen and 
+(min-width:320px) and (max-width:599px) and (orientation:portrait),
+(-webkit-min-device-pixel-ratio:1.5) and (-webkit-max-device-pixel-ratio:3) and (orientation:portrait),
+(min--moz-device-pixel-ratio:1.5) and (max--moz-device-pixel-ratio:3) and (orientation:portrait)
+
+{
+  body
+  {
+    position:relative;
+    left:-8px;
+    top:-8px;
+    width:100%;
+    background-color: #ededed; 
+  }
+
+#webpage
+  {
+    position: relative;
+    width:85vw;
+    left:7vw;
+    top:8vw;
+    background-color: #ededed;
+    min-height:5vw;
+    
+  }
+  
+#nameheader
+  {
+    z-index: 1;
+    width:inherit;
+    height:9vh;
+    position: fixed;
+    top:inherit;
+    background-color:#660066;
+    border-bottom:solid 1vmin #5395ea;
+  }
+  
+#name
+  {
+    font-size:6vh;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+    left:1.5vw;
+    top:1.6vw; 
+  }
+  
+   
+#image-intro
+  {
+    
+    position: relative;
+    width: 100%; 
+    top:6vh;
+    min-height:50vw;
+  }
+  
+#per-image
+  {
+    width:50vw;
+    height:50vw;
+    -moz-border:.5vw solid #5395ea;
+    position: relative;
+    left:17vw;
+    border-radius:30vw;
+    background-image: url(/images/Untitled.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    box-shadow: 0.5vw 0.9vw 1vw #888888;
+   
+         
+  }
+  
+
+#details li
+  {
+    margin-left: -7.5vw;
+    width:100%;
+    color:#FFFFFF;
+    min-height:4vw;
+    padding:0.5vw 0.5vw 0.5vw 1vw;
+    margin-bottom:3vw; 
+    font-family: 'PT Sans', sans-serif;
+    font-size:5.5vw;
+    background: #246fe3;
+    -webkit-box-shadow: 0.6vw 0.6vw 0.6vw #888888;
+    box-shadow: 0.6vw 0.6vw 0.6vw #888888;  
+  }
+#details ul
+  {
+    list-style-type:none;
+    position:relative;
+    width:90%;
+    
+    text-align: center;
+     
+  }
+  
+
+#skill-qualifications
+  {
+    position: relative;
+    top:5vw;
+    width:80vw;
+    margin-left:1vw;
+  }
+  
+ .skill
+  {
+    
+    position: relative;
+    min-height:9vw;
+    top:2vh;
+    width:100%;
+    margin-bottom: 5vw;
+  }
+  
+.skill-header
+  {
+    height: inherit;
+    position:relative;
+    font-size:8vw;
+    font-weight:700;    
+    background-clip:padding-box;
+    padding:0.1vw 0.5vw 0.5vw 1vw ;
+    font-family:'PT Sans', sans-serif; 
+  }
+ .skill-header span
+  {
+    text-align: center;
+    background-color:#246fe3;
+    padding:0.1vw 2vw 0vw 1vw ;
+    color:#FFFFFF;
+    box-shadow: 0.5vw 0.5vw 0.5vw #888888;
+  }
+  
+  .skill-info
+  {
+    position:inherit;
+    padding:0.2vw 0.5vw 0.5vw 1vw ;
+    font-size: 5vw;
+    font-family:'PT Sans', sans-serif; 
+  }
+  
+  .lang
+  {
+    min-height: 1.8vw;
+    padding: 0.3vw 0.5vw 0.5vw 0.5vw;
+    margin-bottom: 0.85vw;
+  }
+  
+  .lang span
+  {
+    padding:0.3vw 4vw 0.5vw 0.5vw;
+  }   
+    
+}
+
+
+   
+
+
+   
